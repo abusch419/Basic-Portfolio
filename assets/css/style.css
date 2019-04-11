@@ -35,28 +35,48 @@ img {
     line-height: 1.5;
     margin: 10px;
 }
-.container {
+.bio-container {
     width: 960px;
+    height: 400px;
     background-color: white;
     position: fixed;
     top: 100px;
-    left: 80px;
+    left: 115px;
   }
 
-  .top-bar {
+  .contact-container {
+    width: 600px;
+    height: 330px;
+    background-color: white;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+  }
+
+  .portfolio-container {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+  }
+
+  .top-bar-bio {
       background-color: white;
       position: relative;
       top: -22px;
   }
 
-  .name-box {
+  .name-box-bio {
       background-color: teal;
       width: 200px;
       text-align: center;
       padding: 21px;
       position: relative;
-      left: 80px;
+      left: 113px;
       font-family: 'Georgia', Times, Times New Roman, serif;
+      color: white;
   }
 
   footer {
@@ -70,3 +90,57 @@ img {
       text-align: center;
       color: white;
   }
+
+  form {
+      position: relative;
+      top: 50px;
+    }
+
+    input[type=message] {
+    height: 100px;
+    width: 90%;
+    box-sizing: border-box;
+    position: relative;
+    left: 23px;
+    }
+
+    input[type=text] {
+    width: 90%;
+    box-sizing: border-box;
+    position: relative;
+    left: 23px;
+    }
+
+    input[type=submit] {
+        color: white;
+        background: teal;
+        position: relative;
+        left: 23px;
+        }
+
+    .action {
+        position: relative;
+        left: 23px;
+    }
+    .top-bar-contact {
+        background-color: white;
+        position: relative;
+        top: -22px;
+        }
+      
+    .name-box-contact {
+        background-color: teal;
+        width: 200px;
+        text-align: center;
+        padding: 21px;
+        position: relative;
+        left: 299px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: white;
+        }
+
+    #portfolio-image {
+        float: left;
+        height: 120px;
+        width: 180px;
+    }
