@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+    background-image: url(https://markleisherproductions.com/wp-content/uploads/2015/10/grey-website-background-illusionapparel2.jpg)
+}
+.tag {
+    color: grey;
+    float: right;
+    margin: 20px;
+}
+
+h1 {
+    color: teal;
+    clear: both;
+}
+
+img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+
+}
+.bio {
+    color: black;
+    margin: 20px;
+    padding: 20px;
+}
+.container {
+    width: 960px;
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    left: 80px;
+  }
+
+  .top-bar {
+      background-color: white;
+      margin: auto;
+      height: 60px;
+  }
+
+  .name-box {
+      background-color: teal;
+      width: 200px;
+      text-align: center;
+      padding: 21px;
+      position: relative;
+      left: 80px;
+  }
+
+  footer {
+      padding: 15px;
+      background-color: grey;
+  }
